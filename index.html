@@ -6,99 +6,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <meta name="description" content="Programa de aprendizaje desarrollo web">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
     <header>
-        <a href="index.html">
-            <img src="img/logo-plenumsoft-negro.png" width="100" alt="Logo Plenumsoft">
-        </a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="unidad1.html">Unidad 1</a></li>
-                <li><a href="unidad2.html">Unidad 2</a></li>
-                <li><a href="unidad3.html">Unidad 3</a></li>
-        </nav>
-        <h1>Programa Células Plenum</h1>
-        <p>by: Plenumsoft_academy</p>
-        <h2>Curso de Programación Web</h2>
-        <p>Aprende los fundamentos esenciales para convertirte en desarrollador web</p>
+        <div class="nav-header">
+            <a href="index.html">
+                <img src="img/logo-plenumsoft-blanco.png" width="100" alt="Logo Plenumsoft">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> | <span>&nbsp;Inicio &nbsp;</span> |</a></li>
+                    <li><a href="unidad1.html"><span>Unidad 1 &nbsp;</span>|</a></li>
+                    <li><a href="unidad2.html"><span>Unidad 2 &nbsp;</span>|</a></li>
+                    <li><a href="unidad3.html"><span>Unidad 3 &nbsp;</span>|</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="title-header">
+            <h1>Programa Células Plenum</h1>
+            <p>by: Plenumsoft_academy</p>
+            <h2>Curso de Programación Web</h2>
+            <p>Aprende los fundamentos esenciales para convertirte en desarrollador web</p>
+        </div>
     </header>
 
     <hr>
 
     <main>
-        <section>
-            <h2>Descripción del curso</h2>
-            <p>En este curso aprenderás desde los fundamentos de ingeniería de software hasta el desarrollo de
-                aplicaciones web modernas mediante tecnologías web HTML, CSS, JavaScript y uso de frameworks como
-                Angular.</p>
-        </section>
+        <div class="info-main">
+            <section class="card-main">
+                <h2>Descripción del curso</h2>
+                <p>En este curso aprenderás desde los fundamentos de ingeniería de software hasta el desarrollo de
+                    aplicaciones web modernas mediante tecnologías web HTML, CSS, JavaScript y uso de frameworks como
+                    Angular.</p>
+            </section>
+
+            <section class="card-main">
+                <h2>Objetivos del curso</h2>
+                <ul>
+                    <li>Comprender los principios de la ingeniería de software</li>
+                    <li>Desarrollar habilidades en programación web</li>
+                    <li>Crear aplicaciones web y modernas</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="arrow-down-png">
+            <img src="img/arrow-down.png" alt="Flecha">
+        </div>
 
         <hr>
 
-        <section>
-            <h2>Objetivos del curso</h2>
-            <ul>
-                <li>Comprender los principios de la ingeniería de software</li>
-                <li>Desarrollar habilidades en programación web</li>
-                <li>Crear aplicaciones web y modernas</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <section>
+        <section class="content-course">
             <h2>Contenido del curso</h2>
+
             <nav>
                 <ul>
-                    <li><a href="unidad1.html">Módulo 1: Inducción al programa Células Plenum </a></li>
-                    <li><a href="unidad2.html">Módulo 2: Fundamentos de Programación</a></li>
-                    <li><a href="unidad3.html">Módulo 3: Fundamentos de Programación Web</a></li>
+                    <li>
+                        <a href="unidad1.html">
+                            <h3>Módulo 1</h3>
+                            <span>Inducción al programa Células Plenum</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="unidad2.html">
+                            <h3>Módulo 2</h3>
+                            <span>Fundamentos de Programación</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="unidad3.html">
+                            <h3>Módulo 3</h3>
+                            <span>Fundamentos de Programación Web</span>
+                        </a>
+                    </li>
                 </ul>
+
             </nav>
         </section>
 
         <hr>
 
-        <section>
+        <section class="duration-course">
             <h2>Duración del curso</h2>
             <p>El curso tiene una duración de 24 semanas.</p>
         </section>
 
         <hr>
 
-        <section>
+        <section class="examples-course">
             <h2>Prácticas reales</h2>
-            <h3>Práctica Java y MySQL</h3>
-            <img src="img/javasql.png" alt="Práctica Java y MySQL">
-            <h3>Uso de Triggers en bases de datos</h3>
-            <img src="img/triggers.png" alt="Uso de Triggers">
-            <h3>Tutorial HTML</h3>
-            <iframe width="1063" height="598" src="https://www.youtube.com/embed/-oK6zL01fNM"
-                title="Curso HTML &amp; CSS ( 1 / 5 ): Fundamentos HTML - jonmircha" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <div class="examples-row">
+                <div class="example-item">
+                    <h3>Práctica Java y MySQL</h3>
+                    <img src="img/javasql.png" alt="Práctica Java y MySQL">
+                </div>
+
+                <div class="example-item">
+                    <h3>Uso de Triggers</h3>
+                    <img src="img/triggers.png" alt="Uso de Triggers">
+                </div>
+
+                <div class="example-item">
+                    <h3>Tutorial HTML</h3>
+                    <iframe src="https://www.youtube.com/embed/-oK6zL01fNM" title="Curso HTML & CSS"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
         </section>
+
 
         <hr>
 
-        <section>
+        <section class="form-container">
             <h2>¿Tienes alguna duda?</h2>
             <h3>¡Contáctanos!</h3>
             <form action="">
                 <label for="name">Nombre:</label><br>
-                <input type="name" id="name" name="name" required><br><br>
+                <input type="name" id="name" name="name" placeholder="Ursulo Estrella" required><br><br>
 
                 <label for="email">Correo Electrónico:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                <input type="email" id="email" name="email" placeholder="ursulo@example.com" required><br><br>
 
                 <label for="message">Mensaje:</label><br>
-                <textarea id="message" name="message" required></textarea><br><br>
+                <textarea id="message" name="message" placeholder="Tengo una duda!" required></textarea><br><br>
 
-                <input type="submit" value="Enviar">
+                <button type="submit" value="Enviar">Enviar</button>
             </form>
         </section>
 
@@ -106,19 +144,21 @@
 
     <hr>
 
-    <footer>
-        <img src="img/logo-celulas-color.png" width="100" alt="Icono de Plenunsoft">
-        <p>Plenunsoft 2026</p>
-        <a href="#">
-            <img src="https://tecvi2.itmerida.mx/pluginfile.php/1/theme_moove/logo/1715200812/LOGO.png" width="350"
-                height="100" alt="Icono de Instagram">
-        </a>
-        <pre>
-MID
-Oficina
-Mérida, Yucatán
-info@plenumsoft.com
-</pre>
+    <footer class="footer">
+        <div class="logo-footer">
+            <a href="index.html">
+                <img src="img/logo-plenumsoft-blanco.png" alt="Logo Plenumsoft">
+                <img src="https://www.cdcuauhtemoc.tecnm.mx/wp-content/uploads/2021/08/LOGO-TECNM-una-linea-azul.png"
+                    alt="Logo del tecnológico de Mérida">
+            </a>
+        </div>
+
+        <div class="text-footer">
+            MID
+            Oficina
+            Mérida, Yucatán
+            info@plenumsoft.com
+        </div>
     </footer>
 </body>
 
