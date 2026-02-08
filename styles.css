@@ -4,8 +4,8 @@
     --bg-main: #040115;
     --bg-navbar: #06001C;
     --bg-panel: #050015;
-    --bg-select: #08012D;
-    --bg-dark-soft: #111111;
+    /* --bg-select: #08012D; */
+    /* --bg-dark-soft: #111111; */
 
     --text-primary: #FFFFFF;
     --text-secondary: rgba(255, 255, 255, 0.7);
@@ -14,20 +14,20 @@
     --accent-purple: #8B5CF6;
     --accent-purple-glow: #9857FF;
 
-    --glass-03: rgba(255, 255, 255, 0.03);
-    --glass-05: rgba(255, 255, 255, 0.05);
+    /* --glass-03: rgba(255, 255, 255, 0.03); */
+    /* --glass-05: rgba(255, 255, 255, 0.05);  */
     --glass-10: rgba(255, 255, 255, 0.1);
     --glass-20: rgba(255, 255, 255, 0.2);
-
-    --success: #10B981;
-    --success-text: #6EE7B7;
-    --danger: #FF6B6B;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
