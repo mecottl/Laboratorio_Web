@@ -40,13 +40,18 @@ body {
 h1 {
     font-family: "Inconsolata";
     color: var(--text-primary);
+    cursor: default;
 }
 
 h2 {
     color: var(--text-primary);
     font-size: 28px;
     text-shadow: 0 0 20px var(--accent-purple-glow);
+    cursor: default;
+}
 
+p, h3 {
+    cursor: default;
 }
 
 ul,
@@ -98,11 +103,14 @@ hr {
 
 }
 
+.nav-header span{
+    transition: all 0.3s ease-in-out;
+}
+
 .nav-header span:hover {
     color: var(--accent-purple-glow);
     text-shadow: 0 0 40px var(--accent-purple-glow);
     font-size: 20px;
-    transition: all 0.3s ease-in-out;
 }
 
 .title-header {
