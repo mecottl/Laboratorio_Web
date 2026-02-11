@@ -79,7 +79,11 @@ hr {
     justify-content: space-between;
     height: 120px;
     background-image: linear-gradient(var(--bg-navbar) 0% 55%, transparent);
-
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; */
 }
 
 .nav-header img {
@@ -115,6 +119,7 @@ hr {
 
 .title-header {
     text-align: center;
+    /* margin: 150px 0 40px 0; */
     margin: 40px 0;
     background-color: var(--bg-panel);
 }
@@ -346,7 +351,6 @@ hr {
     max-width: 600px;
 }
 
-
 /* Formulario index */
 .form-container {
     background-color: var(--bg-panel);
@@ -408,6 +412,7 @@ hr {
     box-shadow: 0 0 20px var(--accent-purple-glow);
 }
 
+/* Información de cada unidad */
 .divider {
     width: 2px;
     height: 300px;
@@ -419,12 +424,20 @@ hr {
     width: 50%;
     margin: auto;
     padding: 40px 20px;
-    text-align: center;
+    text-align: start;
 }
 
 .info-unidad h2 {
     margin-bottom: 20px;
+    text-align: center;
 }
+
+
+.info-unidad ul li {
+    list-style: circle;
+}
+
+
 
 /* Contenidos por unidad */
 .content-unidad {
