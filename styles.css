@@ -76,7 +76,7 @@ hr {
     padding: 15px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     height: 120px;
     background-image: linear-gradient(var(--bg-navbar) 0% 55%, transparent);
     /* position: fixed;
@@ -85,11 +85,15 @@ hr {
     right: 0;
     z-index: 10; */
 }
+.navbar-toggler {
+    font-size: 28px;
+    color: var(--accent-purple-glow);
+}
+
 
 .nav-header img {
     width: 200px;
     height: auto;
-    padding-left: 30px;
 }
 
 
@@ -143,7 +147,8 @@ hr {
     padding: 20px;
     text-align: center;
     justify-content: center;
-    gap: 200px;
+    column-gap: 200px;
+    row-gap: 50px;
     max-width: 1100px;
 }
 
@@ -540,3 +545,13 @@ hr {
     transform: translateY(-2px);
     transition: all 0.3s ease;
 }
+/* 
+@media (max-width: 768px) {
+    .info-main {
+        gap: 40px;
+    }
+
+    .examples-row {
+        gap: 30px;
+    }
+} */

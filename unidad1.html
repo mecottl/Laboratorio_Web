@@ -5,18 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unidad 1</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <div class="nav-header">
+        <div class="nav-header container-fluid d-flex 
+            justify-content-center 
+            justify-content-md-between 
+            align-items-center">
             <a href="index.html">
-                <img src="img/logo-plenumsoft-blanco.png" width="100" alt="Logo Plenumsoft">
+                <img class="img-fluid" src="img/logo-plenumsoft-blanco.png" width="100" alt="Logo Plenumsoft">
             </a>
+
             <nav>
-                <ul>
+                <ul class="d-none d-md-flex">
                     <li><a href="index.html"> | <span>&nbsp;Inicio &nbsp;</span> |</a></li>
                     <li><a href="unidad1.html"><span>Unidad 1 &nbsp;</span>|</a></li>
                     <li><a href="unidad2.html"><span>Unidad 2 &nbsp;</span>|</a></li>
@@ -24,33 +29,39 @@
                 </ul>
             </nav>
         </div>
-        <div class="title-header">
-            <h1>Unidad 1: Inducción al Programa Células Plenum</h1>
+        <div class="title-header px-3">
+            <h1 class="fs-3 fs-md-2 fs-lg-1">
+                Unidad 1<br>Inducción al Programa Células Plenum
+            </h1>
         </div>
+
     </header>
+    <hr>
+    <main class="container-fluid px-3 px-md-5">
+        <div class="info-main unidad-main d-flex flex-column flex-md-row">
 
-    <main>
-        <div class="info-main unidad-main">
-            <section class="info-unidad">
+            <section class="info-unidad w-100">
                 <h2>Introducción</h2>
-                <p>La ingeniería de software es la disciplina que aplica principios de ingeniería al desarrollo de software
-                    de manera sistemática, disciplinada y cuantificable.</p>
-                </section>
+                <p>
+                    La ingeniería de software es la disciplina que aplica principios de ingeniería
+                    al desarrollo de software de manera sistemática, disciplinada y cuantificable.
+                </p>
+            </section>
 
-                <div class="divider"></div>
+            <div class="divider d-none d-md-block"></div>
 
-                <section class="info-unidad">
-                    <h2>Objetivos de la Unidad</h2>
-                    <p>Bienvenido al Módulo 1. Nuestro objetivo es que los estudiantes se familiaricen con la plataforma, la
-                metodología didáctica y los contenidos del Programa Células Plenum.
-                
-            </p>
-        </section>
-    </div>
+            <section class="info-unidad w-100">
+                <h2>Objetivos de la Unidad</h2>
+                <p>
+                    Que los estudiantes se familiaricen con la plataforma,
+                    la metodología didáctica y los contenidos del Programa Células Plenum.
+                </p>
+            </section>
 
-        <section class="content-unidad">
+        </div>
+        <section class="content-unidad px-0 px-md-4">
+
             <h2>Contenido</h2>
-
             <article>
                 <h3>1.1 Visión general del proceso de Ingeniería de Software</h3>
                 <p>Fases del ciclo de vida del software, modelos de desarrollo y mejores prácticas.</p>
@@ -59,27 +70,30 @@
                     <summary>Ver actividades</summary>
                     <ul>
                         <li>1.1.1 Introducción a la Ingeniería de Software</li>
-                        <a href="https://youtu.be/unupVqLwayA">Ver contenido</a>
+                        <a href="https://youtu.be/unupVqLwayA" target="_blank">Ver contenido</a>
+
                         <li>1.1.2 Buenas prácticas en Gestión de Proyectos</li>
-                        <a href="https://youtu.be/tOA0V2btxB0">Ver contenido</a>
+                        <a href="https://youtu.be/tOA0V2btxB0" target="_blank">Ver contenido</a>
+
                         <li>Evaluación del tema 1.1</li>
                     </ul>
                 </details>
-
             </article>
 
             <article>
                 <h3>1.2 Requerimientos</h3>
                 <p>Tipos de requerimientos, técnicas de recolección y análisis.</p>
+
                 <details>
                     <summary>Ver actividades</summary>
                     <ul>
                         <li>1.2.1 Principios de la Ingeniería de Requerimientos</li>
-                        <a href="https://youtu.be/fLcWpOY3h7k">Ver contenido</a>
-                        <li>1.2.2 ingeniería de Requerimientos de Software</li>
-                        <a
-                            href="https://youtube.com/playlist?list=PLCVGhLzsMEq8-Q7Mrvq5Q6jrHo4nDJpod&si=rcwRaWdhkMa6TYaU">Ver
-                            lista de reproducción</a>
+                        <a href="https://youtu.be/fLcWpOY3h7k" target="_blank">Ver contenido</a>
+
+                        <li>1.2.2 Ingeniería de Requerimientos de Software</li>
+                        <a href="https://youtube.com/playlist?list=PLCVGhLzsMEq8-Q7Mrvq5Q6jrHo4nDJpod"
+                            target="_blank">Ver lista</a>
+
                         <li>Evaluación del tema 1.2</li>
                     </ul>
                 </details>
@@ -88,45 +102,22 @@
             <article>
                 <h3>1.3 Arquitectura</h3>
                 <p>Patrones arquitectónicos comunes y su aplicación en el diseño de software.</p>
+
                 <details>
                     <summary>Ver actividades</summary>
                     <ul>
-                        <li>1.3.1 Introducción a la arquitectura de software (01)</li>
-                        <a href="https://youtu.be/n6XvfUG4QBQ">Ver contenido</a>
-                        <li>1.3.2 Introducción a la arquitectura de software (02)</li>
-                        <a href="https://youtu.be/IsT5o0orRTo">Ver contenido</a>
-                        <li>1.3.3 Introducción Arquitectura de Software</li>
-                        <a href="https://youtu.be/ZjxTNGpgP4k">Ver contenido</a>
-                        <li>1.3.4 Arquitectura del software</li>
-                        <a href="https://youtu.be/MbX0hGRiJm8">Ver contenido</a>
+                        <li>Introducción a la arquitectura de software</li>
+                        <a href="https://youtu.be/n6XvfUG4QBQ" target="_blank">Ver contenido</a>
+
                         <li>Evaluación del tema 1.3</li>
                     </ul>
                 </details>
             </article>
 
-            <article>
-                <h3>1.4 Patrones de diseño</h3>
-                <p>Introducción a los patrones de diseño y su importancia en la creación de software mantenible.</p>
-                <details>
-                    <summary>Ver actividades</summary>
-                    <ul>
-                        <li>1.4.1 Introducción a los patrones de diseño (01)</li>
-                        <a href="https://youtu.be/9QhIVc2_wkk">Ver contenido</a>
-                        <li>1.4.2 Patrones de Diseño de software</li>
-                        <a href="https://youtu.be/G4mFD16PGMg">Ver contenido</a>
-                        <li>1.4.3 Curso de Patrones de diseño -2 Singleton</li>
-                        <a href="https://youtu.be/gocJeOHtj9w">Ver contenido</a>
-                        <li>1.4.4 Introducción al Patrón Singleton</li>
-                        <a href="https://youtu.be/I6HkKii8jlM">Ver contenido</a>
-                        <li>Evaluación del tema 1.4</li>
-                    </ul>
-                </details>
-            </article>
         </section>
 
         <hr>
-
-        <nav class="btn-course">
+        <nav class="btn-course ">
             <a href="index.html">Volver al inicio</a>
             <a href="#">EMPECEMOS!</a>
         </nav>
@@ -135,22 +126,31 @@
 
     <hr>
 
+
+    
     <footer class="footer">
         <div class="logo-footer">
-            <a href="index.html">
-                <img src="img/logo-plenumsoft-blanco.png" alt="Logo Plenumsoft">
-                <img src="https://www.cdcuauhtemoc.tecnm.mx/wp-content/uploads/2021/08/LOGO-TECNM-una-linea-azul.png"
-                    alt="Logo del tecnológico de Mérida">
-            </a>
-        </div>
+            <div class="d-flex flex-column align-items-center gap-4">
 
-        <div class="text-footer">
-            MID
-            Oficina
-            Mérida, Yucatán
-            info@plenumsoft.com
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
+                    <img src="img/logo-plenumsoft-blanco.png" alt="Logo Plenumsoft">
+                    <img src="https://www.cdcuauhtemoc.tecnm.mx/wp-content/uploads/2021/08/LOGO-TECNM-una-linea-azul.png"
+                        alt="Logo del tecnológico de Mérida">
+                </div>
+
+                <div class="text-footer">
+                    MID
+                    Oficina
+                    Mérida, Yucatán
+                    info@plenumsoft.com
+                </div>
+
+            </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

@@ -6,17 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unidad 3</title>
     <link rel="icon" type="image/png" href="img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <div class="nav-header">
+        <div class="nav-header container-fluid d-flex 
+            justify-content-center 
+            justify-content-md-between 
+            align-items-center">
             <a href="index.html">
-                <img src="img/logo-plenumsoft-blanco.png" width="100" alt="Logo Plenumsoft">
+                <img class="img-fluid" src="img/logo-plenumsoft-blanco.png" width="100" alt="Logo Plenumsoft">
             </a>
+
             <nav>
-                <ul>
+                <ul class="d-none d-md-flex">
                     <li><a href="index.html"> | <span>&nbsp;Inicio &nbsp;</span> |</a></li>
                     <li><a href="unidad1.html"><span>Unidad 1 &nbsp;</span>|</a></li>
                     <li><a href="unidad2.html"><span>Unidad 2 &nbsp;</span>|</a></li>
@@ -24,38 +29,39 @@
                 </ul>
             </nav>
         </div>
-        <div class="title-header">
-            <h1>Unidad 3: Fundamentos de Programación Web</h1>
+        <div class="title-header px-3">
+            <h1 class="fs-3 fs-md-2 fs-lg-1">Unidad 3<br>Fundamentos de Programación Web</h1>
         </div>
     </header>
 
-    <main>
-        <div class="info-main unidad-main">
+    <main class="container-fluid px-3 px-md-5">
+        <div class="info-main unidad-main d-flex flex-column flex-md-row">
 
-            <section class="info-unidad">
+            <section class="info-unidad w-100">
                 <h2>Introducción</h2>
                 <p>La programación web es una disciplina fundamental en el desarrollo de aplicaciones interactivas y
                     dinámicas en la web. Esta unidad introduce conceptos clave sobre cómo se estructura y desarrolla el
                     software web, incluyendo tecnologías frontend y backend.</p>
-                </section>
-                <div class="divider"></div>
-                
-                <section class="info-unidad">
-                    <h2>Objetivos de la Unidad</h2>
-                    <ul>
-                        <li>Que los estudiantes repasen conceptos básicos de desarrollo web que han aprendido durante su
-                            formación académica y que son indispensables para los siguientes módulos del Programa Células
-                            Plenum.
-                </li>
-                <li>
-                    Que los estudiantes profundicen en tópicos intermedios y avanzados de programación con JavaScript.
-                    
-                </li>
-            </ul>
-        </section>
-    </div>
-        
-        <section class="content-unidad">
+            </section>
+            <div class="divider d-none d-md-block"></div>
+
+            <section class="info-unidad w-100">
+                <h2>Objetivos de la Unidad</h2>
+                <ul>
+                    <li>Que los estudiantes repasen conceptos básicos de desarrollo web que han aprendido durante su
+                        formación académica y que son indispensables para los siguientes módulos del Programa Células
+                        Plenum.
+                    </li>
+                    <li>
+                        Que los estudiantes profundicen en tópicos intermedios y avanzados de programación con
+                        JavaScript.
+
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="content-unidad px-0 px-md-4">
             <h2>Contenido</h2>
 
             <article>
@@ -181,20 +187,25 @@
 
     <hr>
 
+    
     <footer class="footer">
         <div class="logo-footer">
-            <a href="index.html">
-                <img src="img/logo-plenumsoft-blanco.png" alt="Logo Plenumsoft">
-                <img src="https://www.cdcuauhtemoc.tecnm.mx/wp-content/uploads/2021/08/LOGO-TECNM-una-linea-azul.png"
-                    alt="Logo del tecnológico de Mérida">
-            </a>
-        </div>
+            <div class="d-flex flex-column align-items-center gap-4">
 
-        <div class="text-footer">
-            MID
-            Oficina
-            Mérida, Yucatán
-            info@plenumsoft.com
+                <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
+                    <img src="img/logo-plenumsoft-blanco.png" alt="Logo Plenumsoft">
+                    <img src="https://www.cdcuauhtemoc.tecnm.mx/wp-content/uploads/2021/08/LOGO-TECNM-una-linea-azul.png"
+                        alt="Logo del tecnológico de Mérida">
+                </div>
+
+                <div class="text-footer">
+                    MID
+                    Oficina
+                    Mérida, Yucatán
+                    info@plenumsoft.com
+                </div>
+
+            </div>
         </div>
     </footer>
 </body>
